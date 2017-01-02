@@ -6,3 +6,4 @@ RUN apt-get install -y apache2 --fix-missing
 RUN echo 'Arnab was here' > /var/www/index.html
 CMD /usr/sbin/apache2ctl -D FOREGROUND
 EXPOSE 80
+EXPOST 443
